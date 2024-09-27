@@ -17,7 +17,7 @@ class TransactionsController extends Controller implements HasMiddleware
     }
 
     /**
-     * Display a listing of the resource.
+     * Display a listing of the resource. index() method
      */
     public function index()
     {
@@ -25,7 +25,7 @@ class TransactionsController extends Controller implements HasMiddleware
     }
 
     /**
-     * Store a newly created resource in storage.
+     * Store a newly created resource in storage. store() method
      */
     public function store(Request $request)
     {
